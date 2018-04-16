@@ -1,0 +1,27 @@
+/*
+ * Copyright (c) 2017 Transparent Language.  All rights reserved.
+ */
+repositories {
+    maven {
+        url = nashuaJvmUrl
+    }
+
+    repositories {
+        mavenLocal()
+    }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+mainClassName = 'Main'
+
+dependencies {
+    compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
+    // compile "com.structurizr:structurizr-core:${structurizrVersion}"
+    // waiting for the official release which contains deployment diagrams
+    // this version was build locally from source so as to obtain the newest changes
+    compile "com.structurizr:structurizr-core:1.0.0-RC4"
+}
+
+defaultTasks = ['build']

@@ -1,0 +1,5 @@
+# This is an "uber" URL that contains all remote and local repositories that JVM projects need.
+nashuaJvmUrl=http://192.168.254.81:81/artifactory/nashua-jvm
+
+groovyVersion=2.4.13
+structurizrVersion=1.0.0-RC4
