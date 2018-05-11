@@ -1,5 +1,5 @@
 # Overview
-This project contains the important architecture documents for the ADP sub-projects. All sub-projects reference the guidebook and other materials hosted here.
+This project contains the important architecture documents for the XYZ project. All sub-projects reference the guidebook and other materials hosted here.
 
 # Guidebook
 The [guidebook is an important piece of the ADP documentation](guidebook/guidebook.md) and is created programmatically via [Structurizr](https://structurizr.com/), the architecture diagramming tool.
